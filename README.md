@@ -1,10 +1,8 @@
 # ExtractTxtFromSrt
-There are huge value hidden in subtitle files,especially when you're learning some skills.
-This is a tool software I've just made out,hope it helps people with the same need.
-The time is a bit limited, I'll improve it as I have time later.
-If you have any suggestions, feel free to tell me.
+Subtitle files in videos contain valuable information, particularly when you're learning new skills. I've created a software tool to extract pure content from .srt subtitle files, and I hope it can help others with similar needs. I plan to make improvements when I have more time. If you have any suggestions, please feel free to share them.
 
-Extract text from a subtitle file（.srt）
-use the command below to extract txt files from a specified folder,.aws is an example,you can replace it with your own
-
+The main function of the software is to extract pure content from subtitle files (.srt). You can use the command below to extract .txt files from a specified folder (e.g., ./aws):
+```
 ./extract.exe -f ./aws
+```
+The extracted content will be saved in text format. Additionally, the program works even if the folder is nested.
